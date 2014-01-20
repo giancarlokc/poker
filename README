@@ -1,0 +1,37 @@
+Project 3 of Computer Networks. Students: Giancarlo Klemm Camilo, Renan Greca
+UFPR 2012/2
+
+This program uses a library udp_socket.h (Made by us) that was implemented using socket.h
+This program tries to simulate a poker game with 4 players.
+
+The basic rules for the program are:
+	1. Each player sould start the program with a unique ID (integer).
+	2. The player '0' starts.
+	3. The normal rules of texas hold'em apply
+
+Trabalho 3 de redes, Alunos: Giancarlo Klemm Camilo, Renan Greca.
+UFPR 2012/2
+
+Este programa utiliza a biblioteca udp_socket.h (feita por nós) que por sua vez implementa a biblioteca socket.h
+Este programa visa simular um jogo de poker entre 4 jogadores. Sendo que o jogo tem as seguintes regras:
+	1. Cada jogador deve se identificar com um numero unico como argumento do programa.
+	2. O jogador '0' sempre começa.
+	3. As regras normal do poker Texas Hold'em se aplicam.
+
+To compile:
+
+	simply use Make in the source folder.
+
+To run:
+	The program assumes that a ring network would be set up.
+	./poker [ID] [IP address]
+
+	ID - unique identifier
+	IP address - address of the computer you the program talks to.
+
+	Example (4 PLayers A,B,C and D in the same computer):
+
+		A: ./poker 0 127.0.0.1
+		B: ./poker 1 127.0.0.1
+		C: ./poker 2 127.0.0.1
+		D: ./poker 3 127.0.0.1
