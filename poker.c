@@ -38,6 +38,7 @@
 
 // message: |Source|Destination|'x'|Option|----[4]"hand"|----------[10]"desk's cards"|----------------[16]"player's pot"|----[4]"pot"
 
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
